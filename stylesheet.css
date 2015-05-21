@@ -1,3 +1,7 @@
+/** {
+    border: 1px solid white;
+}*/
+
 html body {
 	background: black;
 	background-image: ;
@@ -9,8 +13,6 @@ nav {
   right: 1em;
   display: inline-block;
 }
-
-nav ul {}
 
 nav div {
   border-radius: 5px;
@@ -32,24 +34,46 @@ nav li {
   padding: 10px 35px 10px 35px;
 }
 
-nav a {
+nav li a {
   color: indigo;
   transition: 1000ms;
   text-decoration:none;
 }
 
-nav a:hover {
-  color: violet;
+nav li a:hover {
+  color: pink;
   cursor: pointer;
   transition: 1000ms;
 }
 
-h1  {
+h1 {
   color: purple;
-	margin-left: 50px;
+  margin-left: 50px;
 }
 
-a {
+h1 a{
+  color: purple;
+  margin-left: 50px;
+  text-decoration:none;
+}
+
+h1 a:hover {
+    color: blueviolet;
+    text-decoration:underline;
+}
+
+div.list li {
+    color:purple;
+}
+
+div.list li a {
 	text-decoration: none;
 	color: purple;
 }
+
+div.list li a:hover {
+    color: blueviolet;
+}
+
+
+
