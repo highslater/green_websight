@@ -37,3 +37,8 @@ nav a:hover {
   cursor: pointer;
   transition: 1000ms;
 }
+
+h1  {
+  color: purple;
+}
+}
