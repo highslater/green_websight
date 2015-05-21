@@ -1,0 +1,39 @@
+nav {
+  position: absolute;
+  right: 1em;
+  display: inline-block;
+}
+
+nav ul {}
+
+nav div {
+  border-radius: 5px;
+  display: inline-block;
+  background: lightgray;
+  border: 1px solid purple;
+  transition: 1500ms;
+}
+
+nav div:hover {
+  background: white;
+  border: 1px solid lightpink;
+  transition: 1500ms;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px 35px 10px 35px;
+}
+
+nav a {
+  color: indigo;
+  transition: 1000ms;
+  text-decoration:none;
+}
+
+nav a:hover {
+  color: violet;
+  cursor: pointer;
+  transition: 1000ms;
+}
