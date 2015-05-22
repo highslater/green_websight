@@ -1,1 +1,1 @@
-document.write(copyright 2015)
+document.write("copyright 2015")
