@@ -1,16 +1,3 @@
-<nav>
-		<ul>
-			<div>
-				<li><a href="index.html">Home</a></li>
-			</div>
-			<div>
-				<li><a href="about.html" >About</a></li>
-			</div>
-			<div>
-				<li><a href="projects.html" >Projects</a></li>
-			</div>
-			<div>
-				<li><a href="contact.html">Contact</a></li>
-			</div>
-		</ul>
-</nav>
+
+document.write("nav-bar");
+

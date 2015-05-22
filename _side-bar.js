@@ -1,9 +1,1 @@
-<div class="list">
-      <ul>
-          <li><a href="#">My CodePen</a></li>
-          <li><a href="#">My GitHub</a></li>
-          <li><a href="#">1 link to something</a></li>
-          <li><a href="#">2 link to something</a></li>
-          <li> <a href="#">3 link to something</a></li> 
-      </ul>
-</div>
+document.write("side-bar");
