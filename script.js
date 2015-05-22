@@ -1,5 +1,5 @@
 
 $('document').ready(function() {
-    $( "#nav-bar" ).get( "_nav-bar.html" );
-    $( "#side-bar" ).get( "_side-bar.html" );
+    $( "_nav-bar.html" ).appendTo( "#nav-bar" );
+    $( "_side-bar.html" ).appendTo( "#side-bar" );
 });
