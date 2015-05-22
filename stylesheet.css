@@ -3,7 +3,7 @@
 }*/
 
 html body {
-	background: white;
+	background: black;
 	opacity: 0.8;
 }
 
@@ -56,7 +56,7 @@ nav li a:hover {
     transition: 1000ms;
 }
 
-h1 {
+h1, h5 {
     margin-left: 25px;
     color:purple;
 }
