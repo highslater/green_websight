@@ -9,56 +9,65 @@ html body {
 }
 
 nav {
-  position: absolute;
-  right: 1em;
-  display: inline-block;
+    position: absolute;
+    right: 1em;
+    display: inline-block;
 }
 
 nav div {
-  border-radius: 5px;
-  display: inline-block;
-  background: lightgray;
-  border: 1px solid purple;
-  transition: 1500ms;
+    border-radius: 5px;
+    display: inline-block;
+    background: lightgray;
+    border: 1px solid purple;
+    transition: 1500ms;
 }
 
 nav div:hover {
-  background: white;
-  border: 1px solid lightpink;
-  transition: 1500ms;
+    background: white;
+    border: 1px solid lightpink;
+    transition: 1500ms;
 }
 
 nav li {
-  display: inline-block;
-  font-size: 25px;
-  padding: 10px 35px 10px 35px;
+    display: inline-block;
+    padding: 10px 35px 10px 35px;
+}
+
+a {
+    color: purple;
+    cursor: pointer;
+    text-decoration:none;
+    font-size: 30px;
+}
+
+a:hover {
+    color: darkviolet;
+    
 }
 
 nav li a {
-  color: indigo;
-  transition: 1000ms;
-  text-decoration:none;
+    color: indigo;
+    transition: 1000ms;
+    font-size: 30px;
+  
 }
 
 nav li a:hover {
-  color: pink;
-  cursor: pointer;
-  transition: 1000ms;
+    color: pink;
+    transition: 1000ms;
 }
 
 h1 {
-  color: purple;
-  margin-left: 50px;
+    margin-left: 25px;
+    color:purple;
 }
 
 h1 a{
-  color: purple;
-  margin-left: 50px;
-  text-decoration:none;
+    margin-left: 50px;
+    font-size: 40px;
 }
 
 h1 a:hover {
-    color: blueviolet;
     text-decoration:underline;
 }
 
@@ -72,7 +81,7 @@ div.list li a {
 }
 
 div.list li a:hover {
-    color: blueviolet;
+    color: darkviolet;
 }
 
 
