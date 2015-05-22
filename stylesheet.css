@@ -2,6 +2,12 @@
     border: 1px solid white;
 }*/
 
+div#test {
+    color:green;
+    font-size: 50px;
+    
+}
+
 html body {
 	background: black;
 	opacity: 0.8;
