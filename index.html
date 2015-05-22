@@ -8,36 +8,8 @@
 	<link type="text/css" rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-	<nav>
-		<ul>
-			<div>
-				<li><a href="index.html">Home</a></li>
-			</div>
-			<div>
-				<li><a href="about.html" >About</a></li>
-			</div>
-			<div>
-				<li><a href="projects.html" >Projects</a></li>
-			</div>
-			<div>
-				<li><a href="contact.html">Contact</a></li>
-			</div>
-		</ul>
-	</nav>
-  <br>
-  <div>
-	<h1><a href="mailto:highslater@gmail.com">Highslater</a></h1>
-  </div>
-  <br>
-  <div class="list">
-      <ul>
-          <li><a href="#">My CodePen</a></li>
-          <li><a href="#">My GitHub</a></li>
-          <li><a href="#">1 link to something</a></li>
-          <li><a href="#">2 link to something</a></li>
-          <li> <a href="#">3 link to something</a></li>
-         
-      </ul>
-  </div>
+	<div id="nav-bar"></div><script>$( "#nav-bar" ).load( "_nav-bar.html" );</script><br>
+    <div><h1><a href="mailto:highslater@gmail.com">Highslater</a></h1></div><br>
+    <div id="side-bar"></div><script>$( "#side-bar" ).load( "_side-bar.html" );</script>
 </body>
 </html>
