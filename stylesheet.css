@@ -1,6 +1,19 @@
-/** {
-    border: 1px solid white;
-}*/
+/*
+                :root {
+                  --main-color: #06c;
+                  --accent-color: #006;
+                }
+
+                #foo h1 {
+                  color: var(--main-color);
+                }
+
+                dkblue  = #0074A1
+                ltblue  = #64ABD3
+                dkgreen = #5C8D30
+                ltgreen = #A0BF22
+
+*/
 
 .jumbotron {
     height: 480px;
@@ -21,20 +34,20 @@ nav {
 nav div {
     border-radius: 5px;
     display: inline-block;
-    background: lightgray;
-    border: 1px solid purple;
+    background: #0074A1;
+    border: 1px solid #64ABD3;
     transition: 1500ms;
 }
 
 nav div:hover {
-    background: white;
-    border: 1px solid lightpink;
+    background: #64ABD3;
+    border: 1px solid #0074A1;
     transition: 1500ms;
 }
 
 nav li {
     display: inline-block;
-    padding: 10px 35px 10px 35px;
+    padding: 5px 10px 5px 10px;
 }
 
 a {
@@ -50,25 +63,24 @@ a:hover {
 }
 
 nav li a {
-    color: indigo;
+    color: #64ABD3;
     transition: 1000ms;
     font-size: 30px;
-  
 }
 
 nav li a:hover {
-    color: pink;
+    color: #0074A1;
     transition: 1000ms;
 }
 
 h1     {
     margin-left: 25px;
-    color:purple;
+    color:#5C8D30;
 }
 
 h5 {
     margin-left: 25px;
-    color:indigo;
+    color:#5C8D30;
 }
 
 h1 a{
@@ -76,21 +88,17 @@ h1 a{
     font-size: 40px;
 }
 
-h1 a:hover {
-    text-decoration:underline;
-}
-
 div.list li {
-    color:purple;
+    color:#5C8D30;
 }
 
 div.list li a {
 	text-decoration: none;
-	color: purple;
+	color: #5C8D30;
 }
 
 div.list li a:hover {
-    color: darkviolet;
+    color: #A0BF22;
 }
 
 
@@ -105,18 +113,22 @@ div.list li a:hover {
   display: block;
   height: 1px;
   width: 100%;
-  background: indigo;
+  background: #5C8D30;
   border-radius: 5px;
   opacity: 1;
   margin-top: 10px;
-  -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+  -webkit-transition:  0.5s ease-in-out;
+     -moz-transition:  0.5s ease-in-out;
+       -o-transition:  0.5s ease-in-out;
+          transition:  0.5s ease-in-out;
   -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -o-transform-origin: left center;
-  transform-origin: left center;
+     -moz-transform-origin: left center;
+       -o-transform-origin: left center;
+          transform-origin: left center;
+}
+
+.hamburger.transform span {
+  background: #A0BF22;
 }
 
 .hamburger.transform span:nth-child(2){
@@ -143,7 +155,7 @@ div.list li a:hover {
   width:81%;
   height: 1px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }

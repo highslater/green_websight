@@ -1,0 +1,16 @@
+document.write("<div>");
+		document.write("<ul>");
+			document.write("<div>");
+				document.write("<li><a href='index.html'>early morning</a></li>");
+			document.write("</div>");
+			document.write("<div>");
+				document.write("<li><a href='about.html' >mid-morning</a></li>");
+			document.write("</div>");
+			document.write("<div>");
+				document.write("<li><a href='projects.html' >early afternoon</a></li>");
+			document.write("</div>");
+			document.write("<div>");
+				document.write("<li><a href='contact.html'>late afternoon</a></li>");
+			document.write("</div>");
+		document.write("</ul>");
+	document.write("</div>");
