@@ -1,28 +1,22 @@
 /*
-                :root {
-                  --main-color: #06c;
-                  --accent-color: #006;
-                }
 
-                #foo h1 {
-                  color: var(--main-color);
-                }
-
-                dkblue  = #0074A1
-                ltblue  = #64ABD3
-                dkgreen = #5C8D30
-                ltgreen = #A0BF22
-
+        Light Blue:     #64ABD3
+        Dark Blue:      #0074A1
+        Light Green:    #A0BF18
+        Dark Green:     #5C8D32
+        Black:          #000000
+                
 */
 
 .jumbotron {
     height: 480px;
     background-image: url(images/WallpaperFusion-a-garden-in-the-garden-by-franck-vallet-1680x480.jpg);
+    opacity: 0.8;
 }
 
 html body {
-	background: black;
-	opacity: 0.8;
+	background: #000000;
+	opacity: 0.9;
 }
 
 nav {
@@ -51,15 +45,9 @@ nav li {
 }
 
 a {
-    color: purple;
     cursor: pointer;
     text-decoration:none;
     font-size: 30px;
-}
-
-a:hover {
-    color: darkviolet;
-    
 }
 
 nav li a {
@@ -75,12 +63,12 @@ nav li a:hover {
 
 h1     {
     margin-left: 25px;
-    color:#5C8D30;
+    color:#5C8D32;
 }
 
 h5 {
     margin-left: 25px;
-    color:#5C8D30;
+    color:#5C8D32;
 }
 
 h1 a{
@@ -89,19 +77,17 @@ h1 a{
 }
 
 div.list li {
-    color:#5C8D30;
+    color:#5C8D32;
 }
 
 div.list li a {
 	text-decoration: none;
-	color: #5C8D30;
+	color: #5C8D32;
 }
 
 div.list li a:hover {
-    color: #A0BF22;
+    color: #A0BF18;
 }
-
-
 
 .hamburger {
   
@@ -113,7 +99,7 @@ div.list li a:hover {
   display: block;
   height: 1px;
   width: 100%;
-  background: #5C8D30;
+  background: #5C8D32;
   border-radius: 5px;
   opacity: 1;
   margin-top: 10px;
@@ -128,7 +114,7 @@ div.list li a:hover {
 }
 
 .hamburger.transform span {
-  background: #A0BF22;
+  background: #A0BF18;
 }
 
 .hamburger.transform span:nth-child(2){
