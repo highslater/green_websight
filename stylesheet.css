@@ -91,3 +91,55 @@ div.list li a:hover {
 
 
 
+.hamburger {
+  
+  width: 40px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: indigo;
+  border-radius: 5px;
+  opacity: 1;
+  margin-top: 10px;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.hamburger.transform span:nth-child(2){
+  opacity: 1;
+  width:60%;
+  height: 1px;
+}
+
+.hamburger.transform span:first-child{
+  top: -3px;
+  left: 8px;
+  opacity: 1;
+  width:81%;
+  height: 1px;
+  -webkit-transform: rotate(45deg);
+     -moz-transform: rotate(45deg);
+       -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.hamburger.transform span:last-child{
+  top: 18px;
+  opacity: 1;
+  width:81%;
+  height: 1px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
