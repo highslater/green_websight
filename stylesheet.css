@@ -2,10 +2,9 @@
     border: 1px solid white;
 }*/
 
-div#test {
-    color:green;
-    font-size: 50px;
-    
+.jumbotron {
+    height: 480px;
+    background-image: url(images/WallpaperFusion-a-garden-in-the-garden-by-franck-vallet-1680x480.jpg);
 }
 
 html body {
@@ -62,9 +61,14 @@ nav li a:hover {
     transition: 1000ms;
 }
 
-h1, h5 {
+h1     {
     margin-left: 25px;
     color:purple;
+}
+
+h5 {
+    margin-left: 25px;
+    color:indigo;
 }
 
 h1 a{
