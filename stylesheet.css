@@ -5,6 +5,7 @@
         Light Green:    #A0BF18
         Dark Green:     #5C8D32
         Black:          #000000
+        Light Yellow    #FFFFED
                 
 */
 
@@ -48,7 +49,7 @@ nav li {
 a {
     cursor: pointer;
     text-decoration:none;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 nav li a {
@@ -77,12 +78,26 @@ h1 a{
     font-size: 40px;
 }
 
+div.listBack {
+    display: none;
+    height: 350px;
+    width: 300px;
+    margin: 30px 10px 20px 30px;
+    background: #FFFFEE;
+    opacity: 0.70;
+}
+
 div.list {
     display: none;
+    height: 350px;
+    width: 300px;
+    padding: 1px;
+    opacity: 1.0;
 }
 
 div.list li {
     color:#5C8D32;
+    
 }
 
 div.list li a {
@@ -92,12 +107,13 @@ div.list li a {
 
 div.list li a:hover {
     color: #A0BF18;
+    font-size: 27px;
+    font-weight: bold
 }
 
 .hamburger {
     position: absolute;
-    margin-top: 2px;
-    margin-left: 9px;
+    margin: 2px 10px 30px 9px;
     width: 40px;
     cursor: pointer;
 }
