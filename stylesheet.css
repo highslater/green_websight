@@ -20,6 +20,7 @@ html body {
 }
 
 nav {
+    z-index: 1;
     position: absolute;
     right: 1em;
     display: inline-block;
@@ -76,6 +77,10 @@ h1 a{
     font-size: 40px;
 }
 
+div.list {
+    display: none;
+}
+
 div.list li {
     color:#5C8D32;
 }
@@ -90,27 +95,29 @@ div.list li a:hover {
 }
 
 .hamburger {
-  
-  width: 40px;
-  cursor: pointer;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 9px;
+    width: 40px;
+    cursor: pointer;
 }
 
 .hamburger span {
-  display: block;
-  height: 1px;
-  width: 100%;
-  background: #5C8D32;
-  border-radius: 5px;
-  opacity: 1;
-  margin-top: 10px;
-  -webkit-transition:  0.5s ease-in-out;
-     -moz-transition:  0.5s ease-in-out;
-       -o-transition:  0.5s ease-in-out;
-          transition:  0.5s ease-in-out;
-  -webkit-transform-origin: left center;
-     -moz-transform-origin: left center;
-       -o-transform-origin: left center;
-          transform-origin: left center;
+    display: block;
+    height: 1px;
+    width: 100%;
+    background: #5C8D32;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 10px;
+    -webkit-transition:  0.5s ease-in-out;
+       -moz-transition:  0.5s ease-in-out;
+         -o-transition:  0.5s ease-in-out;
+            transition:  0.5s ease-in-out;
+    -webkit-transform-origin: left center;
+       -moz-transform-origin: left center;
+         -o-transform-origin: left center;
+            transform-origin: left center;
 }
 
 .hamburger.transform span {
