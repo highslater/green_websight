@@ -1,9 +1,18 @@
 $(document).ready(function() {
-    $('.hamburger').on('click', function(){
+    var closed = true;
+    $('.hamburger').click(function(){
         $(this).toggleClass('transform');
-        $('.list').toggle();
-        $('.listBack').toggle();
-    });
-    
-    
+        
+        if (closed){
+            $('.list').slideDown(1000);
+            $('.listBack').slideDown(1200);
+            closed = false;
+        }
+        
+        else { 
+            $('.list').slideUp(1200);
+            $('.listBack').slideUp(1200);
+            closed = true;
+        }   
+    }); 
 });

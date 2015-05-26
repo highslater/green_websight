@@ -96,8 +96,7 @@ div.list {
 }
 
 div.list li {
-    color:#5C8D32;
-    
+    color:#5C8D32;   
 }
 
 div.list li a {
@@ -108,7 +107,9 @@ div.list li a {
 div.list li a:hover {
     color: #A0BF18;
     font-size: 27px;
-    font-weight: bold
+    font-weight: bold;
+    transition: 500ms;
+        
 }
 
 .hamburger {
