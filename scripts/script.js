@@ -1,18 +1,11 @@
-$(document).ready(function() {
-    var closed = true;
-    $('.hamburger').click(function(){
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
+$(document).ready(function () {
+    'use strict';
+    $('.hamburger').click(function () {
         $(this).toggleClass('transform');
-        
-        if (closed){
-            $('.list').slideDown(1000);
-            $('.listBack').slideDown(1200);
-            closed = false;
-        }
-        
-        else { 
-            $('.list').slideUp(1200);
-            $('.listBack').slideUp(1200);
-            closed = true;
-        }   
-    }); 
+        $(".list, .listBack").slideToggle(1000);
+    });
+    
 });
