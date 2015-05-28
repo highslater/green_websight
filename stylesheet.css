@@ -43,7 +43,7 @@ nav div:hover {
 
 nav li {
     display: inline-block;
-    padding: 5px 10px 5px 10px;
+    padding: 2px 5px 2px 5px;
 }
 
 a {
@@ -55,7 +55,7 @@ a {
 nav li a {
     color: #64ABD3;
     transition: 1000ms;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 nav li a:hover {
@@ -105,7 +105,7 @@ div.list li a {
 }
 
 div.list li a:hover {
-    color: #A0BF18;
+    color: #A0BF18;darkolivegreen
     font-size: 27px;
     font-weight: bold;
     transition: 500ms;
@@ -169,3 +169,39 @@ div.list li a:hover {
        -o-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
+
+
+footer {
+    margin-left: 25px;
+}
+
+footer div {
+    height: 30px;
+    width: auto;
+    display: inline-block;
+    background-color:#5C8D32;
+    text-align: center;
+    border: 2px solid #A0BF18;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:2px;
+    opacity: 0.8;
+}
+
+footer div a {
+    color:bisque;
+    font-size: 23px;
+    padding:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
