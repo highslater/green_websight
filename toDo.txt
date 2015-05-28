@@ -1,7 +1,6 @@
 make the bottom picture a script.(dif on each page)
-script the index.html
+script the head.
 refactor CSS.
-add Gradvatar links.
 add links. ( Hacker News https://news.ycombinator.com/ Schneier on Security https://www.schneier.com/ Gravatar https://en.gravatar.com/ W3schools http://www.w3schools.com/ 10Minute Mail http://10minutemail.com/10MinuteMail/index.html)
 make a footer.
 make div:hover change 'div a' also. or viceversa
