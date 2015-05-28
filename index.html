@@ -1,49 +1,25 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<title>Highslater</title>
+	<title>early morning</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/script.js"></script>
 	<link rel="stylesheet" type="text/css"  href="stylesheet.css">
 	<link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-
 </head>
+
 <body>
-    <nav>
-		<ul>
-			<div><li><a href="index.html">early morning</a></li></div>
-			<div><li><a href="about.html" >mid-morning</a></li></div>
-			<div><li><a href="projects.html" >early afternoon</a></li></div>
-			<div><li><a href="contact.html">late afternoon</a></li></div>
-		</ul>
-	</nav>
-    <br>
-    <div class="jumbotron">  
-        <div class="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-    <br>
-        <div class="listBack">
-            <div class="list">
-              <ul>
-                  <li><a href="http://codepen.io/highslater/">My CodePen</a></li>
-                  <li><a href="https://github.com/highslater">My GitHub</a></li>
-                  <li><a href="http://www.codecademy.com/">CodeAcademy</a></li>
-                  <li><a href="https://c9.io/">Cloud9</a></li>
-                  <li><a href="http://www.favicomatic.com/">FavIcomatic</a></li> 
-              </ul>
-            </div>
-        </div> 
+   
+    <div id="nav-bar"></div><script>$('#nav-bar').load('partials/nav-bar.html');</script><br>
+    <div class="jumbotron" >
+        <div class="hamburger"></div><script>$('.hamburger').load('partials/hamburger.html');</script><br>
+        <div class="listBack"><div id="side-bar"></div><script>$('.listBack').load('partials/side-bar.html');</script></div>
     </div>
-    
-  	<h5>WallpaperFusion-a-garden-in-the-garden-by-franck-vallet</h5>
-    <div><h1>early morning</h1></div>  	
+    <h5>WallpaperFusion-a-garden-in-the-garden-by-franck-vallet</h5>    
+    <div><h1>early-morning</h1></div>
+  	<div id="copyright"></div><script>$('#copyright').load('partials/copyright.html');</script>
 </body>
 </html>
