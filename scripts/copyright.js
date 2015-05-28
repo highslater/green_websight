@@ -1,1 +1,0 @@
-document.write("<h5>copyright 2015</h5>");

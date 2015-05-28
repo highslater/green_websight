@@ -12,16 +12,21 @@
 </head>
 <body>
    
-    <div id="nav-bar"></div>
+    <div id="nav-bar"></div><script>$('#nav-bar').load('partials/nav-bar.html');</script><br>
+    
+    <div class="jumbotron" >
+        <div class="hamburger"></div><script>$('.hamburger').load('partials/hamburger.html');</script><br>
+        <div class="listBack"><div id="side-bar"></div><script>$('.listBack').load('partials/side-bar.html');</script></div>
+    </div>    
     <br>
     <div><h1>early afternoon</h1></div>
     <br>
-    <div id="side-bar"></div>
-  	<div id="copyright"></div>
+  	<div id="copyright"></div><script>$('#copyright').load('partials/copyright.html');</script>
   	
-  	<script>$('#nav-bar').load('partials/nav-bar.html');</script>
-  	<script>$('#side-bar').load('partials/side-bar.html');</script>
-  	<script>$('#copyright').load('partials/copyright.html');</script>
+  	
+  	
+  	
+  	
   	
 </body>
 </html>
