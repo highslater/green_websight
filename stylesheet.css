@@ -81,7 +81,7 @@ h1 a{
 div.listBack {
     display: none;
     height: 180px;
-    width: 300px;
+    width: 350px;
     margin: 30px 10px 20px 30px;
     background: #FFFFEE;
     opacity: 0.70;
@@ -90,7 +90,7 @@ div.listBack {
 div.list {
     display: none;
     height: 180px;
-    width: 300px;
+    width: 350px;
     padding: 1px;
     opacity: 1.0;
 }
@@ -189,7 +189,7 @@ footer div {
 }
 
 footer div a {
-    color:bisque;
+    color:#FFFFED;
     font-size: 23px;
     padding:8px;
 }
