@@ -105,7 +105,7 @@ div.list li a {
 }
 
 div.list li a:hover {
-    color: #A0BF18;darkolivegreen
+    color: #A0BF18;
     font-size: 27px;
     font-weight: bold;
     transition: 500ms;
@@ -181,17 +181,39 @@ footer div {
     display: inline-block;
     background-color:#5C8D32;
     text-align: center;
-    border: 2px solid #A0BF18;
+    border: 1px solid #A0BF18;
     border-radius: 5px;
     cursor: pointer;
     padding:2px;
     opacity: 0.8;
 }
 
+footer div:hover {
+    background-color:#A0BF18;
+    border: 1px solid #5C8D32;
+}
+
 footer div a {
     color:#FFFFED;
     font-size: 23px;
     padding:8px;
+}
+
+footer div a:hover {
+    color:#5C8D32;
+    font-size: 23px;
+    padding:8px;
+    transition: 1500ms;
+}
+
+#testDiv {
+    display: none;
+    height:100px;
+    width: 300px;
+    background-color:green;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 

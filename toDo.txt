@@ -1,12 +1,7 @@
 make the bottom picture a script.(dif on each page)
 script the head (if you can do it without flashing the page).
 refactor CSS.
-
-
-footer make hover CSS.
-
-
-make div:hover change 'div a' also. or viceversa
 make a mouseover over a link equal to another div that explains the link a little bit and gives the full url.
 click the link to open a bigger div that explains more and links to that page.
-add more links.
+
+links (stack overflow) 
