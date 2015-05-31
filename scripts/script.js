@@ -9,7 +9,7 @@ $(document).ready(function () {
     });
     var $link = $('.listBack');
     $link.on('mouseenter mouseleave', 'a', function () {
-        $('#testDiv').slideToggle(1000);
+        $('#testDiv').slideToggle(100);
     });
 });
 

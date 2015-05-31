@@ -1,7 +1,6 @@
 make the bottom picture a script.(dif on each page)
 script the head (if you can do it without flashing the page).
 refactor CSS.
-make a mouseover over a link equal to another div that explains the link a little bit and gives the full url.
 click the link to open a bigger div that explains more and links to that page.
 
 links (stack overflow) 
@@ -14,16 +13,3 @@ $(document).ready(function() {
   
   /*alert("ready!");*/
   
-  $("a").attr({
-    title: "link to bb.com",
-  });
-  console.log($("a").attr("href"));
-  console.log($("a").attr("title"));
-  console.log($("a").length);
-  
-  $( "h1" ).html( "hello world" );
-  console.log($( "h1" ).html());
-  console.log($( "h1" ).css( "fontSize" ));
-  $( "h1" ).css( "fontSize", "50px" );
-  console.log($( "h1" ).css( "fontSize" ));
-});
