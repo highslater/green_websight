@@ -208,12 +208,14 @@ footer div a:hover {
 
 #testDiv {
     display: none;
-    height:100px;
-    width: 300px;
-    background-color:green;
-    color: white;
-    text-align: center;
-    padding: 20px;
+    height:180px;
+    width: 550px;
+    background-color:#64ABD3;
+    color: #FFFFED;
+    opacity:0.8;
+    padding: 15px;
+    float: right;
+    margin: 0px 50px 0px 0px;
 }
 
 
