@@ -3,27 +3,13 @@
 
 $(document).ready(function () {
     'use strict';
-    
     $('.hamburger').click(function () {
         $(this).toggleClass('transform');
         $('.list, .listBack').slideToggle(1000);
     });
-    
+    var $link = $('.listBack');
+    $link.on('mouseenter mouseleave', 'a', function () {
+        $('#testDiv').slideToggle(1000);
+    });
 });
 
-$(document).ready(function () {
-    'use strict';
-    
-    
-    var $link = $('.listBack');
-    
-    $link.mouseenter(function () {
-        $('#testDiv').slideDown();
-    });
-    
-    $link.mouseleave(function () {
-        $('#testDiv').slideUp();
-    });
-    
-    
-});
